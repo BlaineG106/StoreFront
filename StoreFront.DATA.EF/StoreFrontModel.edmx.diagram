@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4e2c3ab97c894263a734826b9f107247" Name="Diagram1">
+        <EntityTypeShape EntityType="StoreFrontModel.Categories" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StoreFrontModel.Departments" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StoreFrontModel.Employees" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StoreFrontModel.Products" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StoreFrontModel.Statuses" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="StoreFrontModel.Products_To_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="StoreFrontModel.FK_Employees_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="StoreFrontModel.FK_EmployeeID_To_DirectReportTo" ManuallyRouted="false" />
+        <AssociationConnector Association="StoreFrontModel.Product_To_Statuses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
